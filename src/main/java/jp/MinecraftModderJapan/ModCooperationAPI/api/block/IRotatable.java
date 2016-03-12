@@ -3,6 +3,12 @@ package jp.MinecraftModderJapan.ModCooperationAPI.api.block;
 import net.minecraft.world.World;
 import net.minecraftforge.common.util.ForgeDirection;
 
+/**
+ * Rotatable Block Interface.
+ *
+ * @version 1.0
+ * @since 1.0
+ */
 public interface IRotatable{
     /**
      * Rotate the block. For vanilla blocks this rotates around the axis passed in (generally, it should be the "face"
@@ -21,6 +27,7 @@ public interface IRotatable{
      * @param axis
      *         The axis to rotate around
      * @return True if the rotation was successful, False if the rotation failed, or is not possible
+     * @since 1.0
      */
     boolean rotateBlock(World worldObj, int x, int y, int z, ForgeDirection axis);
 
@@ -37,6 +44,7 @@ public interface IRotatable{
      * @param z
      *         Z position
      * @return An array of valid axes to rotate around, or null for none or unknown
+     * @since 1.0
      */
     ForgeDirection[] getValidRotations(World worldObj, int x, int y, int z);
 }
