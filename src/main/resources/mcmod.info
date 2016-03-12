@@ -1,0 +1,16 @@
+[
+{
+  "modid": "jp.MinecraftModderJapan.ModCooperationAPI",
+  "name": "ModCooperationAPI",
+  "description": "make your mods to work with other mods easily",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authors": ["CrafterKina"],
+  "credits": "MinecraftModderJapan",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
