@@ -1,5 +1,6 @@
 package jp.MinecraftModderJapan.ModCooperationAPI.api.item;
 
+import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.ItemStack;
 
 /**
@@ -13,11 +14,11 @@ public interface IFood{
      * Get the Hunger Heal Amount of This Food.
      * @since 1.0
      */
-    int getHealAmount(ItemStack stack);
+    int getHungerHealAmount(ItemStack stack, EntityPlayer player);
 
     /**
      * Get the Hunger Saturation Heal Amount of This Food.
      * @since 1.0
      */
-    float getSaturationModifier(ItemStack stack);
+    float getHungerSaturationModifier(ItemStack stack, EntityPlayer player);
 }

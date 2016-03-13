@@ -1,6 +1,7 @@
 package jp.MinecraftModderJapan.ModCooperationAPI.api.block;
 
 import net.minecraft.item.ItemStack;
+import net.minecraft.world.World;
 
 /**
  * Block Subtype Holding Interface
@@ -15,5 +16,5 @@ public interface ISubtypeHolding{
      *
      * @since 1.0
      */
-    ItemStack createStackedBlock(int type);
+    ItemStack createStackedBlock(World world, int x, int y, int z);
 }
