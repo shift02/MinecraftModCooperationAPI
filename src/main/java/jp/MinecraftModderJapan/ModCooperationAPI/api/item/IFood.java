@@ -1,6 +1,6 @@
 package jp.MinecraftModderJapan.ModCooperationAPI.api.item;
 
-import net.minecraft.entity.player.EntityPlayer;
+import net.minecraft.entity.EntityLivingBase;
 import net.minecraft.item.ItemStack;
 
 /**
@@ -14,11 +14,18 @@ public interface IFood{
      * Get the Hunger Heal Amount of This Food.
      * @since 1.0
      */
-    int getHungerHealAmount(ItemStack stack, EntityPlayer player);
+    int getHungerHealAmount(ItemStack stack, EntityLivingBase entity);
 
     /**
      * Get the Hunger Saturation Heal Amount of This Food.
      * @since 1.0
      */
-    float getHungerSaturationModifier(ItemStack stack, EntityPlayer player);
+    float getHungerSaturationModifier(ItemStack stack, EntityLivingBase entity);
+
+    /**
+     * Can entity eat this.
+     *
+     * @since 1.0
+     */
+    boolean canBeAteBy(EntityLivingBase entity, ItemStack stack);
 }
