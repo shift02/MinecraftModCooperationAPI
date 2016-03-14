@@ -1,15 +1,19 @@
-### Summary
+### Summary(概要)
 
 <!--Bug report Template-->
-### Expect Behavior
+<!--不具合報告テンプレートここから-->
+### Expect Behavior(期待される挙動)
 
-### Actual Behavior
+### Actual Behavior(実際の挙動)
 
+<!--不具合報告テンプレートここまで-->
 <!--End Bug Report Template-->
 
 <!--Suggestion Template-->
-### Content
+<!--提案テンプレートここから-->
+### Content(内容)
 
-### Reason
+### Reason(理由)
 
+<!--提案テンプレートここまで-->
 <!--End Suggestion Template-->
