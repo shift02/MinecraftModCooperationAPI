@@ -1,7 +1,8 @@
-### Summary
+### Summary(概要)
 
-### Before
+### Before(前)
 
-### After
+### After(後)
 
 <!--If it WIP, Use "- [ ] xxxx".-->
+<!--WIP-PRなら、タスクリストを使うと見やすい場合があります。-->
